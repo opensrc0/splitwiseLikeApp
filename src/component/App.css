@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li:hover {
+  background-color: #111;
+}
+.friend_list > div {
+  margin: 20px 5px 20px 0;
+}
+.split_bill > div {
+  margin: 20px 5px 20px 0;
+}
+input {
+  width: 100%;
+  padding: 10px;
+}
+
+.friendSuggestion > div {
+  padding: 10px;
+  background: yellow;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+}
+
+button {
+  padding: 10px;
+  background: green;
+  color: white;
+  width: 100%;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
